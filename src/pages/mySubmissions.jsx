@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { lookupSubmissions } from '../services/groupService'
-import { getCodes, addCode } from '../services/mySubmissions'
+import { getCodes, addCode } from '../services/MySubmissions'
 import { errMsg } from '../services/api'
 import JoinButton from '../components/common/JoinButton'
 
