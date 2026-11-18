@@ -1,0 +1,1 @@
+package com.grouphub.repository;import com.grouphub.entity.GroupReport;import org.springframework.data.jpa.repository.JpaRepository;import java.util.*;public interface ReportRepository extends JpaRepository<GroupReport,Long>{long countByStatus(String status);List<GroupReport> findAllByOrderByCreatedAtDesc();List<GroupReport> findByStatusOrderByCreatedAtDesc(String status);}

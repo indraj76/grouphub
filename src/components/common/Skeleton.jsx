@@ -1,0 +1,2 @@
+export const Skeleton = ({ className = '' }) => <div className={`animate-pulse rounded-xl bg-gray-200 ${className}`}/>
+export const CardSkeletons = ({ n = 6 }) => <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">{Array.from({ length: n }, (_, i) => <div key={i} className="card space-y-3 p-5"><Skeleton className="h-12 w-12"/><Skeleton className="h-4 w-2/3"/><Skeleton className="h-3 w-full"/><Skeleton className="h-9 w-full"/></div>)}</div>
