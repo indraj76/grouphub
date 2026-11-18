@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import useAsync from '../components/common/useAsync'
 import SearchSelect from '../components/common/SearchSelect'
 import { submitGroup } from '../services/groupService'; import { getCategories } from '../services/categoryService'; import { errMsg } from '../services/api'
-import { addCode } from '../services/mySubmissions.js';
+import { addCode } from '../services/MySubmissions.js';
 import { COUNTRIES, LANGUAGES, countryName, languageName } from '../data/geo'
 const TG = /^https:\/\/(t\.me|telegram\.me)\/(\+|joinchat\/)?[\w-]{4,}$/
 const empty = { name: '', inviteLink: '', categoryId: '', description: '', tags: '', countryCode: '', languageCode: '', contactEmail: '' }
