@@ -2,7 +2,7 @@ import { Routes, Route, Outlet, Link } from 'react-router-dom'
 import Navbar from '../components/common/Navbar'; import Footer from '../components/common/Footer'
 import Home from '../pages/Home'; import Groups from '../pages/Groups'; import GroupDetails from '../pages/GroupDetails'
 import Categories from '../pages/Categories'; import AddGroup from '../pages/AddGroup'; import NotFound from '../pages/NotFound'
-import MySubmissions from '../pages/MySubmissions'
+import MySubmissions from '../pages/mySubmissions'
 import ManageContacts from '../pages/admin/ManageContacts'; import About from '../pages/About'; import Contact from '../pages/Contact'; import PrivacyPolicy from '../pages/PrivacyPolicy'; import Terms from '../pages/Terms'
 import AdminLogin from '../pages/admin/AdminLogin'; import AdminDashboard from '../pages/admin/AdminDashboard'; import ManageGroups from '../pages/admin/ManageGroups'; import ManageCategories from '../pages/admin/ManageCategories'; import ManageReports from '../pages/admin/ManageReports'; import ProtectedRoute from './ProtectedRoute'
 
